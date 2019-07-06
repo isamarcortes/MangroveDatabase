@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BlackMangroveMexico5.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>1.1</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>1.1</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>BlackMangroveMexico</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-86.87575826286627,21.42531282676481,0 -86.8757931308831,21.42524025250415,0 -86.87576950588955,21.4251482718241,0 -86.87555174149736,21.42515177929145,0 -86.87552443914812,21.42504533820775,0 -86.87539634079155,21.42501176125965,0 -86.87540726711941,21.42510327856197,0 -86.87531983937804,21.42513091694666,0 -86.87533325645762,21.42525467652352,0 -86.87539065489928,21.42531652861879,0 -86.87530348980039,21.42538332385669,0 -86.8752344976452,21.425372104395,0 -86.875219411402,21.42556824373031,0 -86.87503123899646,21.42558811528875,0 -86.87493661709326,21.42560009218209,0 -86.87493968424177,21.42567279039707,0 -86.87478248766161,21.42573457340574,0 -86.87478678703627,21.42582292067693,0 -86.87502410052993,21.4258143888651,0 -86.87501932873607,21.42591350549322,0 -86.87514899607315,21.42591786587897,0 -86.87520583966509,21.42583996380484,0 -86.8752681857881,21.42583568005079,0 -86.87529072562039,21.42591348045038,0 -86.87538117098829,21.42590474337293,0 -86.87542770181793,21.42583566561261,0 -86.87552816982159,21.42580585370801,0 -86.87553772015384,21.42572206409917,0 -86.87560324154282,21.42562409645817,0 -86.87563795753036,21.42554846714918,0 -86.87573128865161,21.4255484591102,0 -86.87573634912116,21.42537206202305,0 -86.87575826286627,21.42531282676481,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

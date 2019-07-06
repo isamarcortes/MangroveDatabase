@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ButtonwoodKey2DieOff3.kml</name>
+	<Style id="s_ylw-pushpin60">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin60</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>ButtonwoodKey2DieOff3</name>
+		<styleUrl>#m_ylw-pushpin60</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-80.72481772452052,25.08567454982057,0 -80.72483684578076,25.08557146913186,0 -80.72480249698516,25.08551050748193,0 -80.72478644132703,25.08544020869906,0 -80.72476429528251,25.08538723312356,0 -80.72471739332397,25.08534782905958,0 -80.72466556471207,25.08534455812722,0 -80.72463231535896,25.08541034873873,0 -80.72454096758621,25.08536093343254,0 -80.72439281445695,25.08534783002278,0 -80.72432210551209,25.08532497258591,0 -80.72424053573708,25.08529572224095,0 -80.72420459586989,25.08534128999198,0 -80.72416531625187,25.08543688441748,0 -80.72417279847262,25.08544021011725,0 -80.72422255196959,25.08551724993846,0 -80.72426470653288,25.0855612644623,0 -80.72431909808026,25.08548697804087,0 -80.724407791277,25.08556806622331,0 -80.72443800956592,25.08557147021106,0 -80.72451944011806,25.08562621408708,0 -80.7245850854658,25.08565378466912,0 -80.72465728768037,25.08565724021865,0 -80.72471943329377,25.0856814888097,0 -80.72481772452052,25.08567454982057,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
