@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PR5BlackMangrove2.kml</name>
+	<StyleMap id="m_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>PR5BlackMangrove2</name>
+		<styleUrl>#m_ylw-pushpin4</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-67.09231756862846,17.95938851086148,0 -67.09230445277142,17.95929499740088,0 -67.09202059580636,17.95928460145314,0 -67.09203528941089,17.9593820414896,0 -67.09192569911917,17.95937127430126,0 -67.09192618201088,17.95974500758504,0 -67.09201610702218,17.95975492018637,0 -67.09202222865923,17.95982861928429,0 -67.0920229281968,17.95992959649016,0 -67.09229795286552,17.95992957668155,0 -67.09230962965546,17.95984902242941,0 -67.09241093729177,17.95985157872367,0 -67.09240182501456,17.95976073842471,0 -67.09249231594913,17.95976073245448,0 -67.09249951644598,17.95957587472382,0 -67.09240600513702,17.95958285321933,0 -67.09239165966558,17.95937260064645,0 -67.09231756862846,17.95938851086148,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

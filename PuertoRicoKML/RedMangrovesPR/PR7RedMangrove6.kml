@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PR7RedMangrove6.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>PR7RedMangrove6</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-67.00227393530226,17.96734692185418,0 -67.00228362204111,17.96743111010331,0 -67.00218588893598,17.96743344830101,0 -67.00217647715674,17.96752617308092,0 -67.00209152109542,17.96753837476564,0 -67.00208446987971,17.96760291149123,0 -67.00205463104715,17.96769558783775,0 -67.00198136649149,17.96769822972219,0 -67.00196740597997,17.96778960773668,0 -67.00188984840781,17.96778961903606,0 -67.00185407807781,17.96788774107758,0 -67.00180949836803,17.96788774760362,0 -67.00180425768534,17.96814808722226,0 -67.00187676764176,17.96813849851903,0 -67.00188280869325,17.96787630696657,0 -67.00198193627574,17.96787914464287,0 -67.00198618499961,17.96778412496278,0 -67.00206813455375,17.96778137805827,0 -67.00207836024005,17.96769558439761,0 -67.00217378139976,17.96771405571729,0 -67.0021731414781,17.96760542007673,0 -67.00227075983679,17.96760540597953,0 -67.00227914284679,17.96752615824674,0 -67.0023655791136,17.96753589166133,0 -67.0023605821618,17.96735360744646,0 -67.00227393530226,17.96734692185418,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

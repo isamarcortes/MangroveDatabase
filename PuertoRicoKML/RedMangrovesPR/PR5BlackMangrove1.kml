@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PR5BlackMangrove1.kml</name>
+	<StyleMap id="m_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>PR5BlackMangrove1</name>
+		<styleUrl>#m_ylw-pushpin4</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-67.09250546969851,17.9585803256666,0 -67.09249775376603,17.9584922225479,0 -67.09231443860953,17.95849050977684,0 -67.092313929288,17.95857493335889,0 -67.09222057435272,17.95858214343351,0 -67.0922168238402,17.95875560659207,0 -67.09212278542454,17.95875758241262,0 -67.09211960051459,17.9591043252119,0 -67.09221357835689,17.95911596727501,0 -67.09221569245936,17.95884417251194,0 -67.09230802114971,17.95884828511859,0 -67.09230772924231,17.95939142127474,0 -67.09239666775285,17.95939933792991,0 -67.09240548814034,17.95920410547866,0 -67.09248556745567,17.95922362489304,0 -67.09249445930796,17.95901774682324,0 -67.09259043257734,17.95903567879843,0 -67.09259685450014,17.95857671846448,0 -67.09250546969851,17.9585803256666,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
